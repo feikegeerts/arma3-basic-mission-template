@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14669.925,79.476288,16722.85};
-		dir[]={-0.57876682,-0.58921158,0.56398916};
-		up[]={-0.42219567,0.8077597,0.41141456};
-		aside[]={0.6979813,-2.8842624e-007,0.71627629};
+		pos[]={14629.707,29.226452,16762.41};
+		dir[]={-0.46810243,-0.6693579,0.57713103};
+		up[]={-0.42181739,0.7426852,0.52006668};
+		aside[]={0.77674562,-1.3579847e-006,0.63001472};
 	};
 };
 binarizationWanted=0;
@@ -69,7 +69,6 @@ randomSeed=16224867;
 class ScenarioData
 {
 	author="Voika";
-	disabledAI=1;
 	respawn=3;
 	respawnDelay=20;
 	respawnVehicleDelay=10;
@@ -103,8 +102,22 @@ class CustomAttributes
 					};
 					class value
 					{
-						items=1;
+						items=2;
 						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="MenuPosition";
+							};
+						};
+						class Item1
 						{
 							class data
 							{
@@ -2521,13 +2534,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14624.097,17.910011,16770.207};
-				angles[]={0,1.5768013,0};
+				position[]={14624.097,17.91,16770.207};
+				angles[]={0,1.5768002,0};
 			};
 			name="respawn_west";
 			id=618;
 			type="ModuleRespawnPosition_F";
-			atlOffset=1.1444092e-005;
 			class CustomAttributes
 			{
 				class Attribute0
