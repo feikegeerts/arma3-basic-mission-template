@@ -1,0 +1,1 @@
+# arma3-basic-mission-template
