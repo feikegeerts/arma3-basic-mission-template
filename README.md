@@ -3,3 +3,5 @@
 # List of useful scripts:
 ## Virtual Arsenal
 `["AmmoboxInit",[this,true]] call BIS_fnc_arsenal;`
+## Fatigue
+`player enableFatigue false;`
