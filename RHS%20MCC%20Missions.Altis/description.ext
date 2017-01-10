@@ -1,0 +1,3 @@
+ReviveUnconsciousStateMode = 0;
+respawn = "BASE";
+respawnOnStart = 0;
